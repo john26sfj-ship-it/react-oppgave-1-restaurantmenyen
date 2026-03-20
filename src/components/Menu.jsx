@@ -1,11 +1,12 @@
 import Dish from "./Dish.jsx";
-import MenuArray from "./MenuArray.jsx"
+import menuArr from "./MenuArray.jsx";
 
-const menuArr = {MenuArray}
-
-export default function Menu({menuArr}) {
-    return 
-    <>
-        <Dish />
-    </>;
+export default function Menu() {
+    return (
+        <>
+            {menuArr.map((menuItem) => (
+                <Dish key={menuItem.id} {...menuItem} />
+            ))}
+        </>
+    );
 }

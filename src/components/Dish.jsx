@@ -1,9 +1,10 @@
-export default function Dish(props) {
-    return 
-    <div>
-        <h2>{props.tittel}.</h2>
-        <h3>{props.pris} kr.</h3>
-        <p>{props.ingredienser}.</p>
-        <p>{props.kategori}.</p>
-    </div>
+export default function Dish({ tittel, pris, ingredienser, kategori }) {
+    return (
+        <div>
+            <h2>{tittel}</h2>
+            <h3>{pris}</h3>
+            <p>{ingredienser}</p>
+            <p>{kategori}</p>
+        </div>
+    );
 }

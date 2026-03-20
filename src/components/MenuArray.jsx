@@ -1,6 +1,4 @@
-export default function MenuArray () {
-    return (
-        [
+const menuArr = [
   {
     id: 1,
     tittel: "Spaghetti Bolognese",
@@ -71,6 +69,6 @@ export default function MenuArray () {
     ingredienser: "Entrecôte, asparges, poteter, peppersaus",
     kategori: "Hovedrett",
   },
-]
-    )
-};
+];
+
+export default menuArr;
