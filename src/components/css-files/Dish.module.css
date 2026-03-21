@@ -1,0 +1,31 @@
+.card {
+  margin: 1rem;
+  padding: 2rem 3rem;
+  width: 24rem;
+  border: 2px solid darkgray;
+  border-radius: 0.5rem;
+  color: #333;
+  background-color: #f9f7f5;
+  box-shadow: 2px 2px 4px darkgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.tittel {
+  font-weight: bold;
+  color: goldenrod;
+}
+
+.firstWord {
+  font-weight: bold;
+}
+
+.price {
+  color: green;
+}
+
+.ingredienser {
+  color: #753333;
+}
