@@ -1,21 +1,23 @@
 .card {
-  margin: 1rem;
+  margin: 3rem 1rem;
   padding: 2rem 3rem;
   width: 24rem;
   border: 2px solid darkgray;
   border-radius: 0.5rem;
-  color: #333;
-  background-color: #f9f7f5;
-  box-shadow: 2px 2px 4px darkgray;
+  color: #222;
+  box-shadow: 2px 2px 4px #333;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .tittel {
   font-weight: bold;
-  color: goldenrod;
+  color: rgb(213, 187, 15);
+  text-shadow: 0 0 2px black;
 }
 
 .firstWord {
@@ -23,9 +25,10 @@
 }
 
 .price {
-  color: green;
+  color: #0db061;
 }
 
 .ingredienser {
-  color: #753333;
+  font-style: bold;
+  color: #ff6347;
 }

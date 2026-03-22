@@ -7,7 +7,7 @@ export default function Dish({ tittel, pris, ingredienser, kategori }) {
             <h2 className={styles.tittel}>{tittel}</h2>
             <h3>Pris: <span className={styles.price}>{pris}</span></h3>
             <p><span className={styles.firstWord}>Ingredienser</span>: <span className={styles.ingredienser}>{ingredienser}</span></p>
-            <p><span className={styles.firstWord}>Kategori:</span> {kategori}</p>
+            <p><span className={styles.firstWord}>Kategori: </span> {kategori}</p>
         </div>
     );
 }

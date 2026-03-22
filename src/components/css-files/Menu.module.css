@@ -1,12 +1,9 @@
-/* .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 2rem;
-  justify-content: center;
-} */
-
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+body {
+  background-image: "./images/restaurant-background.webp";
 }
